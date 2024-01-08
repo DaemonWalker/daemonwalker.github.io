@@ -1,0 +1,22 @@
+@media screen and (width>=800px) {
+    .board {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (width>=1000px) {
+    .board {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (width<800px) {
+    .board {
+        width: 45vw;
+        height: 45vw;
+        min-height: 200px;
+        min-width: 200px;
+    }
+}
